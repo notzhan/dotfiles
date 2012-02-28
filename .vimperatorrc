@@ -1,0 +1,52 @@
+noremap j 5j
+noremap k 5k
+noremap J <C-d>
+noremap K <C-u>
+noremap <F11> gT
+noremap <F12> gt
+inoremap <F11> <Esc>gT
+inoremap <F12> <Esc>gt
+noremap <C-F11> :tabmove -1<CR>
+noremap <C-F12> :tabmove +1<CR>
+inoremap <C-F11> <Esc>:tabmove -1<CR>
+inoremap <C-F12> <Esc>:tabmove +1<CR>
+noremap <silent> <leader>a :set! extensions.autoproxy.proxyMode=auto<CR>:echo ':)'<CR>
+noremap <silent> <leader>g :set! extensions.autoproxy.proxyMode=global<CR>:echo ':D'<CR>
+noremap <silent> <leader>d :set! extensions.autoproxy.proxyMode=disabled<CR>:echo ':('<CR>
+:map <F2> :tabopen ~/.mozilla/firefox/tmmjjekc.default/bookmarks.html<CR>
+"set go=T
+set newtab=all
+set complete=l
+set focuscontent
+set noscrollbars
+set showstatuslinks=2
+set toolbars=none,tabs
+set editor="xterm -e vim"
+set hintchars="hjklasdfgyuiopqwertnmzxcvb"
+
+set nextpattern=\\s*(下一页|下一张|下一篇|下页|后页)\\s*,\\bnext\\b,^>$,^(>>|»)$,^(>|»),(>|»)$,\\bmore\\b
+set previouspattern=\\s*(上一页|上一张|上一篇|上页|前页)\\s*,\\b(prev|previous)\\b,^<$,^(<<|«)$,^(<|«),(<|«)$
+
+autocmd LocationChange .* js modes.passAllKeys = /.*(mail\.google\.com|www\.google\.com\/reader).*/.test(buffer.URL)
+
+set titlestring=Firefox
+set novb
+set defsearch=g
+set showstatuslinks=2
+
+colorscheme ot_sweets
+let g:hintsio="io"
+source! ~/.vimperatorrc.local
+map <silent> <leader>t :exe ":tinyurl "+getBrowser().contentWindow.location.href<CR>
+
+loadplugins
+set flashblock
+set fbw=youtube.com,hfest.net,youku.com,google.com,bloomberg.com,adobe.com,github.com,ku6.com
+nmap \w \fbwhitelist
+
+" 显示地址栏菜单栏搜索栏
+map <C-Up> :set go=mT<CR>
+" 隐藏地址栏菜单栏搜索栏
+map <C-Down> :set go=<CR>
+" 显示书签栏
+map <C-Right> :set go=B<CR>

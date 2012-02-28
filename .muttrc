@@ -1,0 +1,187 @@
+# MIME Alternative
+unalternative_order *
+alternative_order text/*
+
+# Display settings
+set index_format="%4C %Z %{%b %d} %?X?%X& ? %-18.18L [%4c] %s"
+set status_format="mutt-filter '-%r-Mutt: %f [Msgs:%?M?%M/?%m%?n? New:%n?%?o? Old:%o?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?%?l? %l?]----%>-(%P)---'|"
+
+# Display status on the first line
+set status_on_top=yes
+
+# No record
+unset record
+
+# Set editor
+set editor="vim"
+
+# Message cache
+set header_cache=~/.mutt/cache/header
+
+# New Mail
+set mark_old=no
+set beep_new=yes
+set check_new=yes
+
+# Set timeout
+set timeout=30
+set mail_check=10
+
+# Quit without question
+set quit=ask-yes
+
+# Ask for a key after command
+set wait_key=yes
+
+# options
+set mbox_type   = Maildir               # mailbox type
+set folder      = ~/Documents/Mails/Gmail     # root folder
+set spoolfile   = "+INBOX"              # inbox
+set mbox        = "+archive"            # [Gmail]/All Mail
+set postponed   = "+drafts"             # [Gmail]/Drafts
+unset record                            # required to prevent duplicates in Sent
+
+set sendmail    = "pre-sendmail"          # use msmtp 'default' account
+
+# mailboxes
+mailboxes +INBOX +archive +sent +drafts +spam +trash
+
+# Auto view
+set mailcap_path=~/.mutt/mailcap
+auto_view text/html application/pdf application/msword
+
+# Message included in reply
+set include=yes
+
+# Pager view
+set resolve=yes
+set pager_stop=yes
+set pager_index_lines=5
+
+# Allow editing the header
+set edit_headers=yes
+
+# To recognize reply messages
+set reply_regexp="^(re([\[0-9\]+])*|aw|回复|答复)[:：][ \t]*"
+
+# Include attachments in forward emails
+set mime_forward=yes
+set mime_forward_rest=yes
+
+# Traditional Fwd: subject
+set forward_format="Fwd: %s"
+
+# Show tildes at the end of mail
+set tilde=yes
+
+# Set from header field
+set use_from=yes
+set reverse_name=yes
+set realname='imtxc'
+set reverse_realname=no
+set from='imtxc <txc.yang@gmail.com>'
+
+# 当你按"r"回信时，不提示你输入回信地址和主题，直接进入编辑模式
+set fast_reply
+#no reply to myself
+unset metoo
+unset reply_self
+set reply_regexp="^(re([\[0-9\]+])*|aw|回复)(:[ \t]|：)"
+
+
+# 外部程序退出时，是否要求用户按一个键才返回。
+# 这在察看某些shell命令输出时是比要的，
+# 否则它们一下就消失了。
+set wait_key=no
+# 当你要把信件存到另一个信箱，而这个信箱已经存在时，是否提示附加？
+set noconfirmappend
+# 是否把邮件头也放在编辑器里可以修改？
+set edit_headers=no
+# 当你在用 pager 看信件时，在 index 留出多少行显示邮件列表？
+set pager_index_lines=4
+# 如果翻到最后，再按往下翻也不会翻到下一封信件
+set pager_stop
+#set pager=vim
+# 保留列表头
+set header_cache=~/.mutt-headercache
+set maildir_header_cache_verify=no
+
+
+# Set alternates addresses
+alternates '^txc.yang@gmail.com$'
+# bindings
+bind attach i exit
+bind attach <space> view-attach
+bind browser <space> select-entry
+bind editor <space> noop
+bind index gg first-entry
+bind index G last-entry
+bind index \cf next-page
+bind index \cb previous-page
+bind index \cx sync-mailbox
+bind pager j next-line
+bind pager k previous-line
+bind pager gg top
+bind pager G bottom
+bind index,pager R reply
+bind index,pager r group-reply
+bind index,pager L group-reply
+
+macro index D "<save-message>+trash<enter>"   "move message to the trash"
+macro index S "<save-message>+spam<enter>"    "mark message as spam"
+macro attach s "<save-entry><kill-line>~/Downloads/<enter>a" "Save attachment"
+macro index ga "<change-folder>=All Mail<enter>" "Go to all mail"
+macro index gs "<change-folder>=Spam<enter>" "Go to spam"
+macro index gt "<change-folder>=Trash<enter>" "Go to trash"
+macro index \cr "<tag-pattern>.\n<tag-prefix><clear-flag>N<untag-pattern>.\n" "Mark all messages as read"
+macro pager \cb |urlview\n "Call urlview"
+macro index,pager S "<save-message>=Spam<enter>" "Mark message as spam"
+
+# main options
+set realname            = "Imtxc"          	        # who am i?
+set from                = "txc.yang@gmail.com"              # who am i?
+set envelope_from                                       # which from?
+set mail_check          = 0                             # check for mail always
+unset move                                              # gmail does that
+set delete                                              # don't ask, just do
+unset confirmappend                                     # don't ask, just do!
+unset mark_old                                          # read/new is good enough for me
+
+# index options
+set sort                = threads                       # like gmail 
+set sort_aux            = reverse-last-date-received    # like gmail
+set sort_re                                             # thread based on reply_regexp
+
+
+# Alias file
+source ~/.mutt/alias
+set alias_file=~/.mutt/alias
+
+# Signature
+set signature=~/.mutt/signature
+
+# Charset settings
+set rfc2047_parameters=yes
+# pager
+set pager_index_lines   = 8                             # show 8 messages when in pager
+set pager_context       = 5                             # show five lines when skipping in pager
+set pager_stop                                          # don't go to next message automatically
+set menu_scroll                                         # scroll in menus 
+set smart_wrap                                          # don't split words
+set tilde                                               # show tildes like in vim
+unset markers                                           # no ugly plus signs
+
+# composing mail
+set fcc_attach                                          # save attachments with the body
+unset mime_forward                                      # forward attachments as part of body
+set forward_format      = "Fwd: %s"                     # format for subject when forwarding
+set include                                             # include message in replies
+set forward_quote                                       # include message in forwards
+
+# headers to show
+ignore *                                                # ignore all headers
+unignore from: to: cc: date: subject:                   # show only these
+hdr_order from: to: cc: date: subject:                  # and in this order
+
+# ---------------------Color theme-----------------------------------
+source "$HOME/.mutt.color8"

@@ -1,0 +1,13 @@
+;;; Automatically generated on Mon Feb  6 14:48:34 2012
+;;; Invoked by vortex@vortex-pc using 23.1.1
+(setq-default session-file-alist '(("~/new.c" 160 160 1 nil nil 160 (overwrite-mode . overwrite-mode-textual))))
+(setq-default file-name-history '("~/new.c" "~/.emacs" "/home/vortex/new.c" "~/.emacs.d/filesets-cache.el" "~/.bm-repository"))
+(setq-default cf-command-history '((c-indent-line-or-region . 1) (back-to-indentation . 2) (c-electric-delete-forward . 2) (move-beginning-of-line . 2) (go-to-char-forward-sb . 1) (highlight-symbol-jump . 3) (mouse-drag-region-sb . 1) (autopair-backspace . 10) (ac-expand . 1) (emaci-p . 4) (autopair-newline . 6) (next-line-remember . 3) (ido-exit-minibuffer . 1) (ido-find-file . 1) (mouse-set-point . 2)))
+(setq-default command-history '((go-to-char-forward 1 110) (find-file "/home/vortex/new.c")))
+(setq-default global-mark-ring 'nil)
+(setq-default hi-lock-face-history '("hi-yellow" "hi-pink" "hi-green" "hi-blue" "hi-black-b" "hi-blue-b" "hi-red-b" "hi-green-b" "hi-black-hb"))
+(setq-default ido-file-history '("n" "new.c"))
+(setq-default serial-name-history '("/dev/ttyS0"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
+(setq-default slime-connect-host-history '("127.0.0.1"))
+(setq-default slime-connect-port-history '("4005"))

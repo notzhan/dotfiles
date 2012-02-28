@@ -1,0 +1,2103 @@
+/etc/gdm/Xsession: Beginning session setup...
+Setting IM through im-switch for locale=en_US.
+Start IM through /home/vortex/.xinput.d/en_US linked to /etc/X11/xinit/xinput.d/fcitx.
+GNOME_KEYRING_CONTROL=/tmp/keyring-xXR7FX
+GNOME_KEYRING_CONTROL=/tmp/keyring-xXR7FX
+GNOME_KEYRING_CONTROL=/tmp/keyring-xXR7FX
+SSH_AUTH_SOCK=/tmp/keyring-xXR7FX/ssh
+
+(polkit-gnome-authentication-agent-1:1814): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:1814): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+** Message: applet now removed from the notification area
+Unable to find a synaptics device.
+** Message: applet now embedded in the notification area
+Initializing nautilus-dropbox 0.7.1
+Initializing YUNIO EXTENSION
+
+g_yunioPath: /home/vortex/YUNIO
+Initializing nautilus-gdu extension
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Desktop/ss
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Desktop/emacs.desktop
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Desktop/thunderbird.desktop
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Desktop/firefox.desktop
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x1400049 (Buddy List)
+Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+** (nm-applet:1809): DEBUG: old state indicates that this was not a disconnect 0
+** (update-notifier:2061): DEBUG: aptdaemon on bus: 0
+** (update-notifier:2061): DEBUG: Skipping reboot required
+
+(nautilus:1806): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1806): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Documents
+Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/桌面
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/YUNIO
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+g_yunioDBPath: /home/vortex/.config/YUNIO/yunio.db
+DB Path folder: /home/vortex/.config/YUNIO/yunio.db
+relativeFilePath:
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Akaedu
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/work
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/sdcv-mode
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Dropbox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/VirtualBox VMs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/octopress
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/github
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/conf.tar.bz2
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/pe
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/0212
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/vim
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/soft
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/emacs相关
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles-86cadad
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Learning+GNU+Emacs%2C+3rd+Edition.pdf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Download.asp-{237028cb-1555-4b60-956b-8b7e473e4002}.dtapart
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/b571ef5325368b80f2fbd6ba93067c56.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/mew-6.4.tar.gz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/17685843.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/VeraMono.ttf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/arimonnew.ttf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.lftp
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.offlineimaprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mutt
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.msmtprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mplayer
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mpdconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.moc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.screenrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gnupg
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.muttrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.reportbugrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.inputrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.indent.pro
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gtkrc-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gmrunrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gitconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.fonts.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.conkyrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.Xresources
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/taglist
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/awesome.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/sticky_normal_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/sticky_normal_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/sticky_focus_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/sticky_focus_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/ontop_normal_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/ontop_normal_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/ontop_focus_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/ontop_focus_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/maximized_normal_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/maximized_normal_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/maximized_focus_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/maximized_focus_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/floating_normal_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/floating_normal_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/floating_focus_inactive.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/floating_focus_active.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/close_normal.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/titlebar/close_focus.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/awesome.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/taglist
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/taglist/square_unsel.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/taglist/square_sel.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/awesome.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tiletop.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tileleft.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tilebottom.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tile.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/spiral.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/max.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/magnifier.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fullscreen.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/floating.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fairv.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fairh.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/dwindle.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.lftp
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.offlineimaprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mutt
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.msmtprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mplayer
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mpdconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.moc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.screenrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gnupg
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.muttrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.reportbugrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.inputrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.indent.pro
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gtkrc-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gmrunrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gitconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.fonts.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.conkyrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.Xresources
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.Xresources
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.conkyrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.fonts.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gitconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gmrunrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gtkrc-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.indent.pro
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.inputrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.reportbugrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.muttrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gnupg
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.screenrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.moc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mpdconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mplayer
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.msmtprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mutt
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.offlineimaprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.lftp
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/awesome.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tiletop.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tileleft.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tilebottom.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tile.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/spiral.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/max.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/magnifier.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fullscreen.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/floating.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fairv.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fairh.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/dwindle.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/桌面
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/YUNIO
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+g_yunioDBPath: /home/vortex/.config/YUNIO/yunio.db
+DB Path folder: /home/vortex/.config/YUNIO/yunio.db
+relativeFilePath:
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Akaedu
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/work
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/sdcv-mode
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Dropbox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/VirtualBox VMs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/octopress
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/github
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/conf.tar.bz2
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/pe
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/0212
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/vim
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/soft
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/emacs相关
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles-86cadad
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Learning+GNU+Emacs%2C+3rd+Edition.pdf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Download.asp-{237028cb-1555-4b60-956b-8b7e473e4002}.dtapart
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/b571ef5325368b80f2fbd6ba93067c56.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/mew-6.4.tar.gz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/17685843.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/VeraMono.ttf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/arimonnew.ttf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.lftp
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.offlineimaprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mutt
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.msmtprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mplayer
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mpdconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.moc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.screenrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gnupg
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.muttrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.reportbugrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.inputrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.indent.pro
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gtkrc-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gmrunrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gitconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.fonts.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.conkyrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.Xresources
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/config
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/rainbow.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/notify.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/nicklist.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/nickcolor.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/beep_beep.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/beep_bark.wav
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/autorun
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/autorun/rainbow.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/autorun/notify.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/autorun/nicklist.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/autorun/nickcolor.pl
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/scripts/autorun/beep_beep.pl
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.irssi/config
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.Xresources
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.conkyrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.fonts.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gitconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gmrunrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gtkrc-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.indent.pro
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.inputrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.reportbugrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.muttrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gnupg
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.screenrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.moc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mpdconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mplayer
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.msmtprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mutt
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.offlineimaprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.lftp
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/awesome.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tiletop.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tileleft.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tilebottom.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/tile.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/spiral.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/max.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/magnifier.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fullscreen.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/floating.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fairv.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/fairh.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/layouts/dwindle.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/awesome.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/taglist/square_unsel.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/icons/taglist/square_sel.png
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/conf.tar.bz2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/github
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/octopress
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/VirtualBox VMs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Dropbox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/sdcv-mode
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/work
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Akaedu
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/YUNIO
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+g_yunioDBPath: /home/vortex/.config/YUNIO/yunio.db
+DB Path folder: /home/vortex/.config/YUNIO/yunio.db
+relativeFilePath:
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/桌面
+Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swp
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swo
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gstreamer-0.10
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.adobe
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vim-fuf-data
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.src
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.cache
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.tetris
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.sudo_as_admin_successful
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bash_history
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.sdcv_history
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.tetris_stat
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.Xresources
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors.old
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recentf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.wcy_desktop_save
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs-places
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recently-used.xbel
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dbus
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gconfd
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.ICEauthority
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swn
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fvwm2rc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gnome2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.local
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gvfs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.pulse-cookie
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.pulse
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dmrc.T4EE9V
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fontconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.neocon
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.nautilus
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.heroku
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.esd_auth
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.viminfo
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dropbox-dist
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dropbox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swm
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fonts
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.openoffice.org
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vim
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.stardict
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gnome2_private
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.mozilla
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.rvm
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.zshrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bash_login
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.zlogin
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gksu.lock
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xinput.d
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.thunderbird
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.aptitude
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs.desktop
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.semanticdb
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs.d
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.mew.el
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.ido.last
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.session
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.thumbnails
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.themes
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.icons
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fvwm
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vim_mru_files
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.pki
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.rpmdb
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.evolution
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dmrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gtk-bookmarks
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gem
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xscreensaver
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bm-repository
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.multisystem
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.multisystem-theme
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vimperator
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.ssh
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recentf~
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.compiz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.VirtualBox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.twitter
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.srecode
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.macromedia
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.purple
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/dconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/autostart
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/YUNIO
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/software-center
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/desktop-couch
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gwibber
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/leafpad
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/ubuntu-tweak
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/fcitx
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/enchant
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gnome-disk-utility
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/update-notifier
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/ibus
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/compiz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/transmission
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/tint2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gtk-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gnome-session
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/Trolltech.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/user-dirs.locale
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/user-dirs.dirs
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/theme.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/rc.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/icons
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/icons/awesome.png
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/icons/titlebar
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/icons/taglist
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/icons/layouts
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/rc.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome1/theme.lua
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/user-dirs.dirs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/user-dirs.locale
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/Trolltech.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gnome-session
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gtk-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/tint2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/transmission
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/compiz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/ibus
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/update-notifier
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gnome-disk-utility
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/enchant
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/fcitx
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/ubuntu-tweak
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/leafpad
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/gwibber
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/desktop-couch
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/software-center
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/YUNIO
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/autostart
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/dconf
+Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.config/awesome
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/rc.lua
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/awesome/theme.lua
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.config/Trolltech.conf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/桌面
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/YUNIO
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+g_yunioDBPath: /home/vortex/.config/YUNIO/yunio.db
+DB Path folder: /home/vortex/.config/YUNIO/yunio.db
+relativeFilePath:
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Akaedu
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/work
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/sdcv-mode
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Dropbox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/VirtualBox VMs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/octopress
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/github
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/conf.tar.bz2
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/pe
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/0212
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/vim
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/soft
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/emacs相关
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles-86cadad
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Learning+GNU+Emacs%2C+3rd+Edition.pdf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Download.asp-{237028cb-1555-4b60-956b-8b7e473e4002}.dtapart
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/b571ef5325368b80f2fbd6ba93067c56.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/mew-6.4.tar.gz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/17685843.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/VeraMono.ttf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/arimonnew.ttf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/conf.tar.bz2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/github
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/octopress
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/VirtualBox VMs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Dropbox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/sdcv-mode
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/work
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Akaedu
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/YUNIO
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+g_yunioDBPath: /home/vortex/.config/YUNIO/yunio.db
+DB Path folder: /home/vortex/.config/YUNIO/yunio.db
+relativeFilePath:
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/桌面
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/sdcv-mode/sdcv-mode.el
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/pe
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/0212
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/vim
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/soft
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/emacs相关
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles-86cadad
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/numbchild-dotfiles.zip
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Learning+GNU+Emacs%2C+3rd+Edition.pdf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/Download.asp-{237028cb-1555-4b60-956b-8b7e473e4002}.dtapart
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/b571ef5325368b80f2fbd6ba93067c56.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/mew-6.4.tar.gz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/17685843.html
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/VeraMono.ttf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/arimonnew.ttf
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.lftp
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.offlineimaprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mutt
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.msmtprc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mplayer
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.mpdconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.moc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.screenrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gnupg
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.muttrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.reportbugrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.inputrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.indent.pro
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gtkrc-2.0
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gmrunrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.gitconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.fonts.conf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.conkyrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/Downloads/adam8157-dotfiles-9e71015/.Xresources
+
+(nautilus:1806): GConf-CRITICAL **: gconf_value_free: assertion `value != NULL' failed
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/conf.tar.bz2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swp
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swo
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gstreamer-0.10
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.adobe
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vim-fuf-data
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.src
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.cache
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bashrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.tetris
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bash_logout
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.profile
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vimperatorrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.sudo_as_admin_successful
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bash_history
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.sdcv_history
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.tetris_stat
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.Xresources
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors.old
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recentf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.wcy_desktop_save
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs-places
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gconf
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recently-used.xbel
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dbus
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gconfd
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.ICEauthority
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swn
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fvwm2rc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gnome2
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.local
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gvfs
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.pulse-cookie
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.pulse
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dmrc.T4EE9V
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fontconfig
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.neocon
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.nautilus
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.heroku
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.esd_auth
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.viminfo
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dropbox-dist
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dropbox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.swm
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fonts
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.openoffice.org
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vim
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.stardict
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gnome2_private
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.mozilla
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.rvm
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.zshrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bash_login
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.zlogin
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gksu.lock
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xinput.d
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.thunderbird
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.aptitude
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs.desktop
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.semanticdb
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.emacs.d
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.mew.el
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.ido.last
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.session
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vimrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.thumbnails
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.themes
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.icons
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.fvwm
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vim_mru_files
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.pki
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.rpmdb
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.evolution
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.dmrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gtk-bookmarks
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.subversion
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.gem
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xscreensaver
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.bm-repository
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.multisystem
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.multisystem-theme
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.vimperator
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.ssh
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recentf~
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.compiz
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.VirtualBox
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.twitter
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.srecode
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.macromedia
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.purple
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recently-used.xbel
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recently-used.xbel
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xinitrc
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recently-used.xbel
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.recently-used.xbel
+get_sync_state,g_yunioPath: /home/vortex/YUNIO
+IN FUNCTION yunio_extension_update_file_info
+pre-getSyncState filename: /home/vortex/.xsession-errors
+Window manager warning: last_user_time (141929312) is greater than comparison timestamp (2250922).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Window manager warning: 0x1400049 (Buddy List) appears to be one of the offending windows with a timestamp of 141929312.  Working around...
+Window manager warning: last_focus_time (141929312) is greater than comparison timestamp (2253145).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Window manager warning: last_user_time (141929312) is greater than comparison timestamp (2253145).  This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW.  Trying to work around...
+Window manager warning: 0x1400049 (Buddy List) appears to be one of the offending windows with a timestamp of 141929312.  Working around...

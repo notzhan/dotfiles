@@ -1,0 +1,118 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vundle
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+filetype off
+
+
+
+
+set runtimepath+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'a.vim'
+Bundle 'Align'
+Bundle 'autoload_cscope.vim'
+Bundle 'bufexplorer.zip'
+Bundle 'echofunc.vim'
+Bundle 'grep.vim'
+Bundle 'snipMate'
+Bundle 'SuperTab-continued.'
+Bundle 'taglist.vim'
+Bundle 'The-NERD-Commenter'
+Bundle 'The-NERD-tree'
+"Bundle 'CSApprox'
+Bundle 'DoxygenToolkit.vim'
+Bundle 'Auto-Pairs'
+Bundle 'TeTrIs.vim'
+Bundle 'Mark'
+Bundle 'OmniCppComplete'
+Bundle 'fcitx.vim'
+Bundle 'transpose-words'
+Bundle 'repeat.vim'
+Bundle 'surround.vim'
+Bundle 'ragtag.vim'
+"Bundle 'Indent-Guides'
+"Bundle 'vimtips.zip'
+
+
+" FuzzyFinder
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+" FuF customisations "{{{
+let g:fuf_modesDisable = []
+nnoremap <leader>h :FufHelp<CR>
+nnoremap <leader>2 :FufFileWithCurrentBufferDir<CR>
+nnoremap <leader>@ :FufFile<CR>
+nnoremap <leader>3 :FufBuffer<CR>
+nnoremap <leader>4 :FufDirWithCurrentBufferDir<CR>
+nnoremap <leader>$ :FufDir<CR>
+nnoremap <leader>5 :FufChangeList<CR>
+nnoremap <leader>6 :FufMruFile<CR>
+nnoremap <leader>7 :FufLine<CR>
+nnoremap <leader>9 :FufTaggedFile<CR>
+
+nnoremap <leader>p :FufDir ~/src/<CR>
+nnoremap <leader>ge :FufDir ~/.rvm/gems/<CR>
+
+nnoremap <leader>gn :vnew \| :FufFile ~/src/notes/<CR>
+
+
+" Command-T
+Bundle 'wincent/Command-T.git'
+let g:CommandTMatchWindowAtTop=1 " show window at top
+"burke's
+nnoremap <leader>tv :CommandTFlush<cr>\|:CommandT app/views<cr>
+nnoremap <leader>tc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
+nnoremap <leader>tm :CommandTFlush<cr>\|:CommandT app/models<cr>
+nnoremap <leader>tl :CommandTFlush<cr>\|:CommandT lib<cr>
+nnoremap <leader>ta :CommandTFlush<cr>\|:CommandT app/assets<cr>
+nnoremap <leader>tp :CommandTFlush<cr>\|:CommandT public<cr>
+nnoremap <leader>tr :topleft :vsplit config/routes.rb<cr>
+nnoremap <leader>tg :topleft :vsplit Gemfile<cr>
+
+""""""""""""""""""""""""""""""
+"" edit command
+""""""""""""""""""""""""""""""
+let mapleader=','
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+map <leader>ew :e %%
+map <leader>es :sp %%
+map <leader>ev :vsp %%
+map <leader>et :tabe %%
+
+
+
+Bundle 'rainbow_parentheses.vim'
+let g:rbpt_colorpairs = [
+    \ ['brown', 'RoyalBlue3'],
+    \ ['Darkblue', 'SeaGreen3'],
+    \ ['darkgray', 'DarkOrchid3'],
+    \ ['darkgreen', 'firebrick3'],
+    \ ['darkcyan', 'RoyalBlue3'],
+    \ ['darkred', 'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['brown', 'firebrick3'],
+    \ ['gray', 'RoyalBlue3'],
+    \ ['black', 'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['Darkblue', 'firebrick3'],
+    \ ['darkgreen', 'RoyalBlue3'],
+    \ ['darkcyan', 'SeaGreen3'],
+    \ ['darkred', 'DarkOrchid3'],
+    \ ['red', 'firebrick3'],
+    \ ]
+"call :RainbowParenthesesToggle()
+nmap <leader>r :RainbowParenthesesToggle<cr>
+au VimEnter * RainbowParenthesesToggle
+"au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+"=========================================
+" syntax
+Bundle 'Markdown'
+Bundle 'bbcode'

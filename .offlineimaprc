@@ -1,0 +1,25 @@
+[general]
+# NOTE: cronjob calls the quiet UI with -u
+#ui = ttyui
+accounts = GMail
+
+[Account GMail]
+localrepository = Gmail-Local
+remoterepository = Gmail-Remote
+
+[Repository Gmail-Local]
+type = Maildir
+localfolders = ~/Documents/Mails/Gmail
+
+[Repository Gmail-Remote]
+type = Gmail 
+remoteuser = txc.yang@gmail.com
+remotepass = yangxinxiu520%@)
+realdelete = no
+
+# "[Gmail]/Some Folder" --> some_folder
+nametrans = lambda folder: re.sub('^inbox$', 'INBOX',
+                           re.sub(' +', '_',
+                           re.sub(r'.*/(.*)$', r'\1', folder).lower()))
+
+# vim: ft=cfg tw=0

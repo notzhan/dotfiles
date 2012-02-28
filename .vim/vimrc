@@ -1,0 +1,719 @@
+" General "{{{
+set helplang=en
+set nocompatible
+set t_Co=256
+"colorscheme desert
+""colorscheme tango
+colorscheme molokai
+iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+set fileencodings=ucs-bom,utf-8,gbk,big5
+" Don't use Ex mode, use Q for formatting
+map Q gq
+map Q to something useful
+noremap Q gq
+
+"dont load csapprox if we no gui support - silences an annoying warning
+if !has("gui")
+    let g:CSApprox_loaded = 1
+endif
+set guifont=Monaco\ 10
+set guifontwide=WenQuanYi\ Micro\ Hei\ 12
+set guioptions-=T
+set guioptions-=r
+exec "set <M-t>=\<Esc>t"
+set winaltkeys=no
+
+" Do :help cope if you are unsure what cope is. It's super useful!
+" can be used with vimgrep or anything in quickfix
+map ,cc :botright cope<cr>
+map ,cn :cn<cr>
+map ,cp :cp<cr>
+
+"make Y consistent with C and D
+nnoremap Y y$
+" CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
+" so that you can undo CTRL-U after inserting a line break.
+inoremap <C-U> <C-G>u<C-U>
+
+""""""""""""""""""""""""""""""""""""""""
+" Only do this part when compiled with support for autocommands.
+if has("autocmd")
+" Enable file type detection.
+" Use the default filetype settings, so that mail gets 'tw' set to 72,
+" 'cindent' is on in C files, etc.
+" Also load indent files, to automatically do language-dependent indenting.
+filetype plugin indent on
+" Put these in an autocmd group, so that we can delete them easily.
+augroup vimrcEx
+au!
+" For all text files set 'textwidth' to 78 characters.
+autocmd FileType text setlocal textwidth=78
+autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+" Customisations based on house-style (arbitrary)
+autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab
+autocmd FileType mail set textwidth=72 " set textwidth for mail
+autocmd FileType python set et sta ts=4 sw=4 " Use soft tabs for python
+autocmd BufNewFile,BufRead *.md set filetype=markdown " Use extension to set filetype
+ " Treat .rss files as XML
+autocmd BufNewFile,BufRead *.rss setfiletype xml
+" When editing a file, always jump to the last known cursor position.
+" Don't do it when the position is invalid or when inside an event handler
+" (happens when dropping a file on gvim).
+" Also don't do it when the mark is in the first line, that is the default
+" position when opening a file.
+autocmd BufReadPost *
+  \ if line("'\"") > 1 && line("'\"") <= line("$") |
+  \   exe "normal! g`\"" |
+  \ endif
+augroup END
+else
+  set autoindent        " always set autoindenting on
+endif " has("autocmd")
+
+" Convenient command to see the difference between the current buffer and the
+" file it was loaded from, thus the changes you made.
+" Only define it when not defined already.
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
+          \ | wincmd p | diffthis
+endif
+
+
+"
+"             misc
+"
+""""""""""""""""""""""""""""""""""""""""
+" have nice $ sign when you use `cw`
+set cpoptions+=$
+" get rid of the silly characters in window separators
+set fillchars=""
+
+set history=256 " Number of things to remember in history.
+set timeoutlen=250 " Time to wait after ESC (default causes an annoying delay)
+set clipboard+=unnamed " Yanks go on clipboard instead.
+set pastetoggle=<F10> " toggle between paste and normal: for 'safer' pasting from keyboard
+set shiftround " round indent to multiple of 'shiftwidth'
+
+set modeline
+set modelines=5 " default numbers of lines to read for modeline instructions
+
+set autowrite " Writes on make/shell commands
+set autoread
+
+set hidden " The current buffer can be put to the background without writing to disk
+
+let g:is_posix = 1 " vim's default is archaic bourne shell, bring it up to the 90s
+let mapleader = ','
+" "}}}
+
+" Formatting & Indent "{{{
+set autoindent " Auto indent
+set smartindent " Smart indet
+set tabstop=4 " Use hard tabs
+set smarttab
+set shiftwidth=4
+set noexpandtab
+" Set backspace
+"set backspace=eol,start,indent
+set backspace=indent
+set backspace+=eol
+set backspace+=start
+set formatoptions+=mM " Set auto-formating
+set cinoptions=:0,l1,t0,g0 " Config C-indenting
+set fo+=o " Automatically insert the current comment leader after hitting 'o' or 'O' in Normal mode.
+set fo-=r " Do not automatically insert a comment leader after an enter
+set fo-=t " Do no auto-wrap text using textwidth (does not apply to comments)
+au FileType Makefile set noexpandtab
+
+
+map Q gq
+set wrap
+set whichwrap=b,s,<,>,[,],h,l
+set textwidth=0 " Don't wrap lines by default
+
+" Formatting & Indent "}}}
+
+" Lines folding  adam8157
+set foldenable
+set foldnestmax=1
+"set foldmethod=syntax
+set foldmethod=indent
+set nofoldenable "dont fold by default
+set foldopen-=search     " dont open folds when I search into thm
+set foldopen-=undo       " dont open folds when I undo stuff
+
+" Set fileencodings
+set fileencodings=ucs-bom,utf-8,gbk,big5
+
+" Set complete options
+set completeopt=longest,menu
+
+" Set wild menu & mode
+set wildmenu
+set wildmode=longest:full,full
+
+" Auto change current directory
+set autochdir
+
+" Use absolute paths in sessions
+set sessionoptions-=curdir
+
+" Backup "{{{
+set backup " Enable backup
+set backupdir=~/.vim/backup " Set backup directory
+set directory=~/.vim/swap,/tmp " Set swap file directory
+autocmd BufWritePre * let &backupext = strftime(".%m-%d-%H-%M") " Keep more backups for one file
+" backup "}}}
+
+" Interface "{{{
+set ruler " Show ruler
+set title " Dynamic title
+set number " Display line number
+set laststatus=2 " Always have a status line
+set display=lastline " Allow to display incomplete line
+" Interface }}}
+
+" Search "{{{
+set magic " Enable magic matching
+set showmatch " Show matching bracets
+set hlsearch " Highlight search things
+set smartcase " Ignore case when searching
+set ignorecase
+set incsearch " Incremental match when searching
+" Search "}}}
+
+" Visual "{{{
+syntax on " enable syntax
+set mouse=a "enable mouse in GUI mode
+set mousehide " Hide mouse after chars typed
+set showmatch " Show matching brackets.
+set matchtime=2 " Bracket blinking.
+set laststatus=2 " always show status line.
+"set shortmess=atI " shortens messages
+set showcmd " display an incomplete command in statusline
+
+set statusline=%<%f\ " custom statusline
+set stl+=[%{&ff}] " show fileformat
+set stl+=%y%m%r%=
+set stl+=%-14.(%l,%c%V%)\ %P
+
+"set foldenable " Turn on folding
+"set foldmethod=marker " Fold on the marker
+"set foldlevel=100 " Don't autofold anything (but I can still fold manually)
+
+"set foldopen=block,hor,tag " what movements open folds
+"set foldopen+=percent,mark
+"set foldopen+=quickfix
+
+set splitbelow
+""set splitright
+
+"set list " display unprintable characters f12 - switches
+set listchars=tab:\ ·,eol:¬
+set listchars+=trail:·
+set listchars+=extends:»,precedes:«
+map <silent> <F12> :set invlist<CR>
+
+""""""""""""""""""""""""""""""
+" Really useful!
+"  In visual mode when you press * or # to search for the current selection
+vnoremap <silent> * :call VisualSearch('f')<CR>
+vnoremap <silent> # :call VisualSearch('b')<CR>
+
+" When you press gv you vimgrep after the selected text
+vnoremap <silent> gv :call VisualSearch('gv')<CR>
+map <leader>g :vimgrep // **/*.<left><left><left><left><left><left><left>
+
+
+function! CmdLine(str)
+    exe "menu Foo.Bar :" . a:str
+    emenu Foo.Bar
+    unmenu Foo
+endfunction 
+
+" From an idea by Michael Naumann
+function! VisualSearch(direction) range
+    let l:saved_reg = @"
+    execute "normal! vgvy"
+
+    let l:pattern = escape(@", '\\/.*$^~[]')
+    let l:pattern = substitute(l:pattern, "\n$", "", "")
+
+    if a:direction == 'b'
+        execute "normal ?" . l:pattern . "^M"
+    elseif a:direction == 'gv'
+        call CmdLine("vimgrep " . '/'. l:pattern . '/' . ' **/*.')
+    elseif a:direction == 'f'
+        execute "normal /" . l:pattern . "^M"
+    endif
+
+    let @/ = l:pattern
+    let @" = l:saved_reg
+endfunction
+
+
+" Visual "}}}
+
+" Command mode related "{{{
+" Smart mappings on the command line
+cno $h e ~/
+cno $d e ~/Desktop/
+cno $j e ./
+cno $c e <C-\>eCurrentFileDir("e")<cr>
+
+" $q is super useful when browsing on the command line
+cno $q <C-\>eDeleteTillSlash()<cr>
+
+" Bash like keys for the command line
+cnoremap <C-A>		<Home>
+cnoremap <C-E>		<End>
+cnoremap <C-K>		<C-U>
+
+cnoremap <C-P> <Up>
+cnoremap <C-N> <Down>
+
+" Useful on some European keyboards
+map Â½ $
+imap Â½ $
+vmap Â½ $
+cmap Â½ $
+
+
+func! Cwd()
+  let cwd = getcwd()
+  return "e " . cwd 
+endfunc
+
+func! DeleteTillSlash()
+  let g:cmd = getcmdline()
+  if MySys() == "linux" || MySys() == "mac"
+    let g:cmd_edited = substitute(g:cmd, "\\(.*\[/\]\\).*", "\\1", "")
+  else
+    let g:cmd_edited = substitute(g:cmd, "\\(.*\[\\\\]\\).*", "\\1", "")
+  endif
+  if g:cmd == g:cmd_edited
+    if MySys() == "linux" || MySys() == "mac"
+      let g:cmd_edited = substitute(g:cmd, "\\(.*\[/\]\\).*/", "\\1", "")
+    else
+      let g:cmd_edited = substitute(g:cmd, "\\(.*\[\\\\\]\\).*\[\\\\\]", "\\1", "")
+    endif
+  endif   
+  return g:cmd_edited
+endfunc
+
+func! CurrentFileDir(cmd)
+  return a:cmd . " " . expand("%:p:h") . "/"
+endfunc
+" Command mode related "}}}
+
+
+" Plugins "{{{
+let autocscope_menus=0 " Use my own cscope mappings
+let SuperTabDefaultCompletionType="context" " Use context to decide completion type
+""""""""""""""""""""""""""""""
+ "" Supertab.vim
+""""""""""""""""""""""""""""""
+let g:SuperTabRetainCOmpletionType=2 " 2: remember last autocomplete type, unless I use ESC to exit insert mode
+"let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+" Plugins "}}}
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Parenthesis/bracket expanding
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+vnoremap $1 <esc>`>a)<esc>`<i(<esc>
+vnoremap $2 <esc>`>a]<esc>`<i[<esc>
+vnoremap $3 <esc>`>a}<esc>`<i{<esc>
+vnoremap $$ <esc>`>a"<esc>`<i"<esc>
+vnoremap $q <esc>`>a'<esc>`<i'<esc>
+vnoremap $e <esc>`>a"<esc>`<i"<esc>
+
+" Map auto complete of (, ", ', [
+"inoremap $1 ()<esc>i
+"inoremap $2 []<esc>i
+"inoremap $3 {}<esc>i
+"inoremap $4 {<esc>o}<esc>O
+"inoremap $q ''<esc>i
+"inoremap $e ""<esc>i
+"inoremap $t <><esc>i
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Spell checking
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Pressing ,ss will toggle and untoggle spell checking
+map <leader>ss :setlocal spell!<cr>
+
+"Shortcuts using <leader>
+map <leader>sn ]s
+map <leader>sp [s
+map <leader>sa zg
+map <leader>s? z=
+
+
+""""""""""""""""""""""""""""""
+" => Python section
+""""""""""""""""""""""""""""""
+let python_highlight_all = 1
+au FileType python syn keyword pythonDecorator True None False self
+
+au BufNewFile,BufRead *.jinja set syntax=htmljinja
+au BufNewFile,BufRead *.mako set ft=mako
+
+au FileType python inoremap <buffer> $r return 
+au FileType python inoremap <buffer> $i import 
+au FileType python inoremap <buffer> $p print 
+au FileType python inoremap <buffer> $f #--- PH ----------------------------------------------<esc>FP2xi
+au FileType python map <buffer> <leader>1 /class 
+au FileType python map <buffer> <leader>2 /def 
+au FileType python map <buffer> <leader>C ?class 
+au FileType python map <buffer> <leader>D ?def 
+
+
+""""""""""""""""""""""""""""""
+" => JavaScript section
+"""""""""""""""""""""""""""""""
+au FileType javascript call JavaScriptFold()
+au FileType javascript setl fen
+au FileType javascript setl nocindent
+
+au FileType javascript imap <c-t> AJS.log();<esc>hi
+au FileType javascript imap <c-a> alert();<esc>hi
+
+au FileType javascript inoremap <buffer> $r return 
+au FileType javascript inoremap <buffer> $f //--- PH ----------------------------------------------<esc>FP2xi
+
+function! JavaScriptFold() 
+    setl foldmethod=syntax
+    setl foldlevelstart=1
+    syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
+
+    function! FoldText()
+    return substitute(getline(v:foldstart), '{.*', '{...}', '')
+    endfunction
+    setl foldtext=FoldText()
+endfunction
+
+
+" CTags "{{{
+set tags=tags;~ " Auto finding
+" CTags "}}}
+
+let Tlist_Sort_Type="name" " Sort by name
+""let Tlist_Use_Right_Window=1 " Use right window
+let Tlist_Auto_Update=1 " Enable auto update
+let Tlist_Compart_Format=1 " Set compart format
+let Tlist_Exit_OnlyWindow=1 " Set exit by window
+let Tlist_Enable_Fold_Column=0 " Disable fold column
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Cscope
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set cscopetag " Use both cscope and ctag
+set cscopeverbose " Show msg when cscope db added
+set cscopetagorder=1 " Use tags for definition search first
+set cscopequickfix=s-,g-,d-,c-,t-,e-,f-,i- " Use quickfix window to show cscope results
+
+" Key mappings " {{{
+" Duplication
+nnoremap <leader>c mz"dyy"dp`z
+vnoremap <leader>c "dymz"dP`z
+
+"nnoremap <C-F> <C-U> " swap ^u
+"nnoremap <C-U> <C-F> " with ^f : convenience!
+nnoremap <leader>rs :source ~/.vimrc<CR>
+nnoremap <leader>rt :tabnew ~/.vim/vimrc<CR>
+nnoremap <leader>re :e ~/.vim/vimrc<CR>
+nnoremap <leader>rd :e ~/.vim/ <CR>
+
+" Tab navigation
+nnoremap tp :tabprevious<CR>
+nnoremap to :tabnew<CR>
+nnoremap tc :tabclose<CR>
+nnoremap <M-h> :tabprev<CR>
+nnoremap <M-l> :tabnext<CR>
+nnoremap gf <C-W>gf
+
+"move in insert mode
+inoremap <C-A> <Home>
+inoremap <C-E> <End>
+inoremap <c-h> <Left>
+inoremap <c-l> <right>
+inoremap <c-j> <c-o>gj
+inoremap <c-k> <c-o>gk
+
+" search for visual-mode selected text
+vmap / y/<C-R>"<CR>
+
+" Esc
+"inoremap <leader>, <Esc>
+"inoremap ;; <Esc>
+"inoremap ;; <Esc>
+
+map ,, :q<CR> " quit quickly
+map ,f :q!<CR> " force quit
+
+" copy filename
+map <silent> <leader>. :let @+=expand('%:p').':'.line('.')<CR>
+" copy path
+map <silent> <leader>/ :let @+=expand('%:p:h')<CR>
+
+map <S-CR> A<CR><ESC>
+
+map <leader>E :Explore<CR>
+map <leader>EE :Vexplore!<CR><C-W>=
+
+" Make Control-direction switch between windows (like C-W h, etc)
+nmap <silent> <C-k> <C-W><C-k>
+nmap <silent> <C-j> <C-W><C-j>
+nmap <silent> <C-h> <C-W><C-h>
+nmap <silent> <C-l> <C-W><C-l>
+
+" vertical split with CommandT
+nnoremap <leader>v :exec ':vnew \| CommandT'<CR>
+" and without
+nnoremap <leader>V :vnew<CR>
+
+" Cscope mappings
+nnoremap <C-w>\ :scs find c <C-R>=expand("<cword>")<CR><CR>
+nnoremap <C-\>s :scs find s <C-R>=expand("<cword>")<CR><CR>
+nnoremap <C-\>g :scs find g <C-R>=expand("<cword>")<CR><CR>
+nnoremap <C-\>d :scs find d <C-R>=expand("<cword>")<CR><CR>
+nnoremap <C-\>c :scs find c <C-R>=expand("<cword>")<CR><CR>
+nnoremap <C-\>t :scs find t <C-R>=expand("<cword>")<CR><CR>
+nnoremap <C-\>e :scs find e <C-R>=expand("<cword>")<CR><CR>
+nnoremap <C-\>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
+nnoremap <C-\>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+
+" Set Up and Down non-linewise
+noremap <Up> gk
+noremap <Down> gj
+
+" Toggle Tlist
+nnoremap <silent> <F2> :TlistToggle<CR>:TlistUpdate<CR>
+
+" Grep search tools
+nnoremap <F3> :Rgrep<CR>
+
+"insert time stamp in insert mode
+inoremap <F5> <C-R>=strftime("%Y-%m-%d %T %Z")<CR>
+
+" Save & Make
+nnoremap <F5> :w<CR>:make!<CR>
+nnoremap <F6> :w<CR>:make! %< CC=gcc CFLAGS="-Wall -g -O2"<CR>:!./%<<CR>
+inoremap <F6> <ESC>:w<CR>:make! %< CC=gcc CFLAGS="-Wall -g -O2"<CR>:!./%<<CR>
+
+" clear search highlight with F4
+nmap <F4> :noh<cr><ESC>
+
+
+
+let g:timestamp_regexp = '\v\C%(<Last %([cC]hanged?|[Mm]odified):\s+)@<=.*$'
+
+" Quickfix window
+nnoremap <silent> <F7> :botright copen<CR>
+nnoremap <silent> <F8> :cclose<CR>
+
+" NERDTreeToggle
+nnoremap <silent> <F9> :NERDTreeToggle<CR>
+
+" Toggle display line number
+nnoremap <silent> <F10> :set number!<CR>
+
+"map <F11> :!ctags -R –c++-kinds=+p –fields=+iaS –extra=+q .<CR>
+
+" Use <space> to toggle fold
+nnoremap <silent> <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
+
+" Use xsel to access the X clipboard
+if $DISPLAY != '' && executable('xsel')
+nnoremap <silent> "*y :'[,']w !xsel -i -p -l /dev/null<CR>
+nnoremap <silent> "*p :r!xsel -p<CR>
+nnoremap <silent> "+y :'[,']w !xsel -i -b -l /dev/null<CR>
+nnoremap <silent> "+p :r!xsel -b<CR>
+endif
+
+if filereadable( $HOME . '/.vim/vimrc.bundle' )
+    source ~/.vim/vimrc.bundle
+endif
+
+"snipmate settings
+let g:snips_author = "Martin Grenfell"
+
+"taglist settings
+let Tlist_Ctags_Cmd = '/usr/bin/ctags'
+let Tlist_Compact_Format = 1
+let Tlist_Enable_Fold_Column = 0
+let Tlist_Exit_OnlyWindow = 0
+let Tlist_WinWidth = 35
+let tlist_php_settings = 'php;c:class;f:Functions'
+""let Tlist_Use_Right_Window=1
+let Tlist_GainFocus_On_ToggleOpen = 1
+let Tlist_Display_Tag_Scope = 1
+let Tlist_Process_File_Always = 1
+let Tlist_Show_One_File = 1
+
+""""""""""""""""""""""""""""""
+"" Omnicppcomplete
+""""""""""""""""""""""""""""""
+" :help omnicppcomplete
+set completeopt=longest,menu      " I really HATE the preview window!!!
+let OmniCpp_NameSpaceSearch=1     " 0: namespaces disabled
+                                  " 1: search namespaces in the current buffer [default]
+                                  " 2: search namespaces in the current buffer and in included files
+let OmniCpp_GlobalScopeSearch=1   " 0: disabled 1:enabled
+let OmniCpp_ShowAccess=1          " 1: show access
+let OmniCpp_ShowPrototypeInAbbr=1 " 1: display prototype in abbreviation
+let OmniCpp_MayCompleteArrow=1    " autocomplete after ->
+let OmniCpp_MayCompleteDot=1      " autocomplete after .
+let OmniCpp_MayCompleteScope=1    " autocomplete after ::
+let OmniCpp_DefaultNamespaces=["std", "GLIBCXX_STD"]
+
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+autocmd FileType c set omnifunc=ccomplete#Complete
+
+
+" => Command-T
+""""""""""""""""""""""""""""""
+let g:CommandTMaxHeight = 15
+set wildignore+=*.o,*.obj,.git,*.pyc
+noremap <leader>j :CommandT<cr>
+noremap <leader>y :CommandTFlush<cr>
+
+" sdcv
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! Mydict()
+  let expl=system('sdcv -n ' .
+        \  expand("<cword>"))
+  windo if
+        \ expand("%")=="diCt-tmp" |
+        \ q!|endif
+  25vsp diCt-tmp
+  setlocal buftype=nofile bufhidden=hide noswapfile
+  1s/^/\=expl/
+  1
+endfunction
+nmap F :call Mydict()<CR>
+
+""""""""""""""""""""""""""""""""""""""
+" {{{ plugin - mark.vim 给各种tags标记不同的颜色，便于观看调式的插件。
+" 这样，当我输入“,hl”时，就会把光标下的单词高亮，在此单词上按“,hh”会清除该单词的高亮。如果在高亮单词外输入“,hh”，会清除所有的高亮。
+" 你也可以使用virsual模式选中一段文本，然后按“,hl”，会高亮你所选中的文本；或者你可以用“,hr”来输入一个正则表达式，这会高亮所有符合这个正则表达式的文本。
+nmap <silent> <leader>hl <plug>MarkSet
+vmap <silent> <leader>hl <plug>MarkSet
+nmap <silent> <leader>hh <plug>MarkClear
+vmap <silent> <leader>hh <plug>MarkClear
+nmap <silent> <leader>hr <plug>MarkRegex
+vmap <silent> <leader>hr <plug>MarkRegex
+" 你可以在高亮文本上使用“,#”或“,*”来上下搜索高亮文本。在使用了“,#”或“,*”后，就可以直接输入“#”或“*”来继续查找该高亮文本，直到你又用“#”或“*”查找了其它文本。
+" <silent>* 当前MarkWord的下一个     <silent># 当前MarkWord的上一个
+" <silent>/ 所有MarkWords的下一个    <silent>? 所有MarkWords的上一个
+"- default highlightings ------------------------------------------------------
+highlight def MarkWord1  ctermbg=Cyan     ctermfg=Black  guibg=#8CCBEA    guifg=Black
+highlight def MarkWord2  ctermbg=Green    ctermfg=Black  guibg=#A4E57E    guifg=Black
+highlight def MarkWord3  ctermbg=Yellow   ctermfg=Black  guibg=#FFDB72    guifg=Black
+highlight def MarkWord4  ctermbg=Red      ctermfg=Black  guibg=#FF7272    guifg=Black
+highlight def MarkWord5  ctermbg=Magenta  ctermfg=Black  guibg=#FFB3FF    guifg=Black
+highlight def MarkWord6  ctermbg=Blue     ctermfg=Black  guibg=#9999FF    guifg=Black
+"}}}
+
+"--------------------------file type settings---------------------------
+"tags
+"use semicolon to seperate so that vim searches parent directories!
+set tags=tags;
+
+"Python
+"autocmd Filetype python setlocal omnifunc=pythoncomplete#Complete
+autocmd BufNewFile *.py
+            \0put=\"#!/usr/bin/env python\<nl># -*- coding: UTF-8 -*-\<nl>\"
+            \|call AutoHead()
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+"ruby
+autocmd BufNewFile *.rb 0put=\"#!/usr/bin/env ruby\<nl># coding: utf-8\<nl>\" |call AutoHead()
+let g:ruby_no_comment_fold=1
+"autocmd FileType ruby set omnifunc=rubycomplete#Complete
+autocmd FileType ruby set shiftwidth=2 softtabstop=2
+
+"C/C++
+autocmd FileType cpp setlocal nofoldenable
+            \|nmap ,a :A<CR>
+autocmd FileType c setlocal cindent
+
+"Fortran
+"autocmd FileType fortran let b:fortran_free_source = 1
+
+"Txt, set syntax file and spell check
+autocmd BufRead,BufNewFile *.txt set filetype=text
+"autocmd BufRead *.txt setlocal spell spelllang=en_gb
+
+"Tex ''spelllang=en_gb
+"let g:tex_flavor="context"
+autocmd FileType tex,plaintex,context
+            \|silent set spell
+            \|nmap <buffer> <F8> gwap
+
+" shell script
+autocmd BufNewFile *.sh 0put=\"#!/bin/bash\<nl># vim:fdm=marker\<nl>\" |call AutoHead()
+
+"Gnuplot
+autocmd BufNewFile *.gpi 0put='#!/usr/bin/gnuplot -persist' |call AutoHead()
+
+"emails,
+"delete old quotations, set spell and put cursor in the first line
+autocmd FileType mail
+            \|:silent set spell
+"\|:silent 0put=''
+"\|:silent 0put=''
+            \|:silent g/^.*>\sOn.*wrote:\s*$\|^>\s*>.*$/de
+"\|:silent %s/^\s*>\s*--\_.\{-\}\_^\s*\_$//ge
+            \|:silent 1
+
+"openGL shading language (glsl)
+au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
+
+"cuda
+au BufNewFile,BufRead *.cu set ft=cuda |setlocal cindent
+
+"markdown
+autocmd BufNewFile,BufRead *.mkd,*.mdown set ft=markdown comments=n:> nu nospell textwidth=0
+
+"RestructuredText
+autocmd BufNewFile,BufRead *.rst set ft=rest ai formatoptions=tcroqn2
+
+"viki
+autocmd BufNewFile,BufRead *.viki set ft=viki
+
+"fcron
+autocmd BufNewFile,BufRead /tmp/fcr-* set ft=crontab
+
+"pentadactyl
+autocmd BufNewFile,BufRead /tmp/pentadactyl*.tmp set textwidth=9999
+
+"bbcode
+autocmd BufNewFile,BufRead /tmp/*forum.ubuntu.org.cn* set ft=bbcode
+
+"remind
+autocmd BufNewFile,BufRead *.rem set ft=remind
+
+let g:DoxygenToolkit_authorName="Vortex - txc DOT yang AT gmail DOT com"
+let g:DoxygenToolkit_briefTag_funcName="yes"
+let s:licenseTag = "Copyleft(C)\<enter>"
+let s:licenseTag = s:licenseTag . "For free\<enter>"
+"let s:licenseTag = s:licenseTag . "All right reserved\<enter>"
+let s:licenseTag = s:licenseTag . "All right reserved"
+let g:DoxygenToolkit_licenseTag = s:licenseTag
+let g:DoxygenToolkit_briefTag_funcName="yes"
+let g:doxygen_enhanced_color=1
+map <leader>da :DoxAuthor<CR>
+map <leader>df :Dox<CR>
+map <leader>db :DoxLic<CR>
+map <leader>dc a /*  */<LEFT><LEFT><LEFT>
+
+filetype plugin indent on
