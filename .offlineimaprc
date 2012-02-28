@@ -14,7 +14,7 @@ localfolders = ~/Documents/Mails/Gmail
 [Repository Gmail-Remote]
 type = Gmail 
 remoteuser = txc.yang@gmail.com
-remotepass = yangxinxiu520%@)
+remotepass = pass
 realdelete = no
 
 # "[Gmail]/Some Folder" --> some_folder
