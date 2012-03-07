@@ -35,9 +35,14 @@ Bundle 'transpose-words'
 Bundle 'repeat.vim'
 Bundle 'surround.vim'
 Bundle 'ragtag.vim'
+Bundle 'fugitive.vim'
+Bundle 'git://github.com/Lokaltog/vim-powerline.git'
+Bundle 'https://github.com/tangledhelix/vim-octopress.git'
 "Bundle 'Indent-Guides'
 "Bundle 'vimtips.zip'
-
+Bundle 'https://github.com/tpope/vim-git.git'
+Bundle 'TxtBrowser'
+Bundle 'DrawIt'
 
 " FuzzyFinder
 Bundle 'L9'

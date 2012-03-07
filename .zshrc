@@ -588,7 +588,7 @@ alias -g N="> /dev/null"
 alias -g NF="./*(oc[1])"      # last modified(inode time) file or directory
 
 # tmux or screen ?
-(bin-exist tmux) && alias s=tmux || alias s=screen
+#(bin-exist tmux) && alias s=tmux || alias s=screen
 
 #file types
 (bin-exist apvlv) && alias -s pdf=apvlv
@@ -605,7 +605,8 @@ alias egrep='egrep -I --color=auto'
 alias cal='cal -3'
 alias freeze='kill -STOP'
 alias ls=$'ls -h --color=auto -X --time-style="+\e[33m[\e[32m%Y-%m-%d \e[35m%k:%M\e[33m]\e[m"'
-alias vi='vim'
+#alias vi='vim'
+alias sr='screen -R'
 alias ll='ls -l'
 alias df='df -Th'
 alias du='du -h'
@@ -625,6 +626,7 @@ alias zhcon='zhcon --utf8'
 alias vless="/usr/share/vim/vim72/macros/less.sh"
 del() {mv -vif -- $* ~/.Trash}
 alias m='mutt'
+#alias vi='gvim'
 alias port='netstat -ntlp'      #opening ports
 #Terminal - Harder, Faster, Stronger SSH clients 
 #alias ssh="ssh -4 -C -c blowfish-cbc"
@@ -639,6 +641,7 @@ alias gfw="ssh -C2g -o ServerAliveInterval=60 -c arcfour -D 7070"
 [ -d /usr/share/man/zh_CN ] && alias cman="MANPATH=/usr/share/man/zh_CN man"
 alias tnethack='telnet nethack.alt.org'
 alias tslashem='telnet slashem.crash-override.net'
+alias gfw='autossh -TfN -D 8580 vortex@vpn.ofan.me -p59'
 
 #}}}
 
