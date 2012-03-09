@@ -588,7 +588,7 @@ alias -g N="> /dev/null"
 alias -g NF="./*(oc[1])"      # last modified(inode time) file or directory
 
 # tmux or screen ?
-#(bin-exist tmux) && alias s=tmux || alias s=screen
+(bin-exist tmux) && alias s=tmux || alias s=screen
 
 #file types
 (bin-exist apvlv) && alias -s pdf=apvlv
@@ -606,7 +606,6 @@ alias cal='cal -3'
 alias freeze='kill -STOP'
 alias ls=$'ls -h --color=auto -X --time-style="+\e[33m[\e[32m%Y-%m-%d \e[35m%k:%M\e[33m]\e[m"'
 #alias vi='vim'
-alias sr='screen -R'
 alias ll='ls -l'
 alias df='df -Th'
 alias du='du -h'
@@ -627,6 +626,7 @@ alias vless="/usr/share/vim/vim72/macros/less.sh"
 del() {mv -vif -- $* ~/.Trash}
 alias m='mutt'
 #alias vi='gvim'
+alias sr='screen -R'
 alias port='netstat -ntlp'      #opening ports
 #Terminal - Harder, Faster, Stronger SSH clients 
 #alias ssh="ssh -4 -C -c blowfish-cbc"
@@ -636,12 +636,31 @@ alias e264='mencoder -vf harddup -ovc x264 -x264encopts crf=22:subme=6:frameref=
 alias top10='print -l  ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
 #alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 #alias gfw="ssh -o ServerAliveInterval=60 -CNfg -D 7777 -l roy lychee &>/dev/null &"
-alias gfw="ssh -C2g -o ServerAliveInterval=60 -c arcfour -D 7070"
+alias gfw="autossh -M 10000 -f -q -N -D 8580 vortex@vpn.ofan.me -p59"
 (bin-exist pal) && alias pal="pal -r 0-7 --color"
 [ -d /usr/share/man/zh_CN ] && alias cman="MANPATH=/usr/share/man/zh_CN man"
 alias tnethack='telnet nethack.alt.org'
 alias tslashem='telnet slashem.crash-override.net'
-alias gfw='autossh -TfN -D 8580 vortex@vpn.ofan.me -p59'
+#######adam
+alias cr='ctags -R --fields=+lS && cscope -Rbq'
+alias df='df -h'
+alias dt='dmesg | tail -n 20'
+alias du='du -sh'
+alias dx='xset s off && xset dpms 0 0 0'
+alias ga='git add -A'
+alias gc='git commit -a'
+alias gd='git difftool'
+alias gi='git add -i'
+alias gl='git log --graph'
+alias gp='git push'
+alias grep='grep --color=auto'
+alias gr='git ls-files -d |xargs git checkout --'
+alias gs='git status'
+alias gu='git pull'
+alias gw='git show'
+alias hb='sudo pm-hibernate'
+alias ht='sudo halt -p'
+####adam
 
 #}}}
 
