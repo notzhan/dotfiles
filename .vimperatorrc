@@ -13,7 +13,6 @@ inoremap <C-F12> <Esc>:tabmove +1<CR>
 noremap <silent> <leader>a :set! extensions.autoproxy.proxyMode=auto<CR>:echo ':)'<CR>
 noremap <silent> <leader>g :set! extensions.autoproxy.proxyMode=global<CR>:echo ':D'<CR>
 noremap <silent> <leader>d :set! extensions.autoproxy.proxyMode=disabled<CR>:echo ':('<CR>
-:map <F2> :tabopen ~/.mozilla/firefox/tmmjjekc.default/bookmarks.html<CR>
 "set go=T
 set newtab=all
 set complete=l
@@ -45,8 +44,8 @@ set fbw=youtube.com,hfest.net,youku.com,google.com,bloomberg.com,adobe.com,githu
 nmap \w \fbwhitelist
 
 " 显示地址栏菜单栏搜索栏
-map <C-Up> :set go=mT<CR>
+map <C-Up> :set gui=menu,navigation<CR>
 " 隐藏地址栏菜单栏搜索栏
-map <C-Down> :set go=<CR>
+map <C-Down> :set gui=nomenu,nonavigation<CR>
 " 显示书签栏
 map <C-Right> :set go=B<CR>
