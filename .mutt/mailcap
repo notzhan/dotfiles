@@ -1,4 +1,17 @@
-text/html; w3m -dump -ppc 9 -I %{charset} -T text/html %s|uniq; copiousoutput
+#text/html; w3m -dump -ppc 9 -I %{charset} -T text/html %s|uniq; copiousoutput
 application/pdf; pdftotext -enc UTF-8 %s /dev/stdout; copiousoutput
-application/msword; antiword %s|uniq; copiousoutput
+#application/msword; antiword %s|uniq; copiousoutput
 image/*; mirage %s; test=test -n "$DISPLAY"
+
+
+application/msword;antiword -f %s|sed -e "s:^[[:space:]]$::"|cat -s; copiousoutput
+application/excel; xls2csv %s | less; copiousoutput
+application/x-msexcel; xls2csv %s | less; copiousoutput
+text/rtf;catdoc %s | less ; nametemplate=%s.rtf; copiousoutput
+#image/*; feh %s; test=test -n "$DISPLAY"
+#application/pdf; evince %s; test=test -n "DISPLAY"
+#application/pdf; pdftotext -enc UTF-8 %s /dev/stdout; copiousoutput;print=select-print.sh %s
+video/*; mplayer %s
+text/html; w3m -o display_link_number=1 -dump -ppc 9 -I %{charset} -T text/html %s|sed -e "s:^[[:space:]]$::"|cat -s; copiousoutput
+
+
