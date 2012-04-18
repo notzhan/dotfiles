@@ -62,14 +62,21 @@ ${font caviar dreams:size=12}${color FFFFFF}${alignr}${acpitemp}°C${font}
 ${color 3399FF}${voffset 6}${sysname}${alignr}${kernel}${machine}
 Uptime:$alignr${color FFFFFF}$uptime_short
 ${color FFFFFF}${goto 25}${voffset 35}${cpu cpu0}%
+${color FFFFFF}${goto 25}${cpu cpu1}%
 ${color 3399FF}${goto 25}CPU
-${color FFFFFF}${goto 50}${voffset 23}${memperc}%
+${color FFFFFF}${goto 50}${voffset 20}${memperc}%
 ${color 3399FF}${goto 50}RAM
-${color FFFFFF}${goto 75}${voffset 23}${swapperc}%
-${color 3399FF}${goto 75}SWAP
+${color FFFFFF}${goto 70}${voffset 20}${swapperc}%
+${color 3399FF}${goto 70}SWAP
 ${color FFFFFF}${goto 100}${voffset 23}${fs_used_perc /}%
 ${color 3399FF}${goto 100}Disk
-${color FFFFFF}${goto 125}${voffset 25}${upspeed eth0}
+${color FFFFFF}${goto 125}${voffset 20}${upspeed eth0}
 ${color FFFFFF}${goto 125}${downspeed eth0}
 ${color 3399FF}${goto 125}Net
 
+
+${color 000000}${font OpenLogos:size=20}A ${voffset -5}${font FZShouJinShu-S10:size=14}TODO LIST${font}
+${hr 2}
+${execpi 20 cat ~/Dropbox/todo/todo.txt | sed -n '1,12p' | sed 's/^/${voffset 2}${color }${font RsbillsDng:size=17}A${font}${font FZShouJinShu-S10:size=11}${color}${voffset -5} /'}
+
+#${execpi 120 t ls}
