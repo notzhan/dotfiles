@@ -53,11 +53,6 @@ mailboxes +INBOX +archive +sent +drafts +spam +trash +comp.lang.c
 set mailcap_path=~/.mutt/mailcap
 auto_view text/html application/pdf application/msword
 
-# don't forget to include the attachments in forward emails
-set mime_forward
-set mime_forward_rest
-
-
 # text width
 set wrap=-3
 
@@ -69,7 +64,6 @@ set indent_str="> "
 # Pager view
 set resolve=yes
 set pager_stop=yes
-set pager_index_lines=5
 
 # Allow editing the header
 set edit_headers=yes
@@ -89,13 +83,6 @@ set tilde=yes
 
 # Add Bcc header
 my_hdr Bcc: txc.yang@gmail.com
-
-# Set from header field
-set use_from=yes
-set reverse_name=yes
-set realname='imtxc'
-set reverse_realname=no
-set from='imtxc <txc.yang@gmail.com>'
 
 # 当你按"r"回信时，不提示你输入回信地址和主题，直接进入编辑模式
 set fast_reply
@@ -122,15 +109,13 @@ set pager_stop
 set header_cache=~/.mutt-headercache
 set maildir_header_cache_verify=no
 
-# 设置你自己的邮件头。
+# 设置邮件头。
 set from='Imtxc <txc.yang@gmail.com>'
-#set different from information when replying according to accounts
-set use_from
+set use_from=yes
 set envelope_from=yes #add -f <from> to sendmail command line
 set realname='Imtxc'
 set reverse_name=yes
 set reverse_realname=yes
-#alternates 'txc.yang@gmail.com|imtxc@yahoo.com'
 
 
 # Set alternates addresses
@@ -164,14 +149,9 @@ macro pager \cb |urlview\n "Call urlview"
 macro index,pager S "<save-message>=Spam<enter>" "Mark message as spam"
 
 # main options
-set realname            = "Imtxc"          	        # who am i?
-set from                = "txc.yang@gmail.com"              # who am i?
-set envelope_from                                       # which from?
-set mail_check          = 0                             # check for mail always
 unset move                                              # gmail does that
 set delete                                              # don't ask, just do
 unset confirmappend                                     # don't ask, just do!
-unset mark_old                                          # read/new is good enough for me
 
 # index options
 set sort                = threads                       # like gmail 
@@ -189,12 +169,10 @@ set signature=~/.mutt/signature
 # Charset settings
 set rfc2047_parameters=yes
 # pager
-set pager_index_lines   = 8                             # show 8 messages when in pager
 set pager_context       = 5                             # show five lines when skipping in pager
 set pager_stop                                          # don't go to next message automatically
 set menu_scroll                                         # scroll in menus 
 set smart_wrap                                          # don't split words
-set tilde                                               # show tildes like in vim
 unset markers                                           # no ugly plus signs
 
 # composing mail
@@ -210,7 +188,7 @@ unignore from: to: cc: date: subject:                   # show only these
 hdr_order from: to: cc: date: subject:                  # and in this order
 
 # Mailing lists
-subscribe comp.lang.c@googlegroups.com
+#subscribe comp.lang.c@googlegroups.com
 
 # ---------------------GnuPG stuff-----------------------------------
 # Specify key
