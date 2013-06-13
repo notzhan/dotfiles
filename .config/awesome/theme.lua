@@ -4,22 +4,22 @@
 
 theme = {}
 
-theme.font          = "sans 10"
-
-theme.bg_normal     = "#3f3f3f"
-theme.bg_focus      = "#1e2320"
-theme.bg_urgent     = "#75507b"
+theme.font          = "Sans 10"
+theme.bg_normal     = "#222222"
+theme.bg_focus      = "#535d6c"
+theme.bg_urgent     = "#222222"
 theme.bg_minimize   = "#444444"
 
-theme.fg_normal     = "#dcdccc"
-theme.fg_focus      = "#f0dfaf"
-theme.fg_urgent     = "#cc9393"
+theme.fg_normal     = "#aaaaaa"
+theme.fg_focus      = "#ffffff"
+theme.fg_urgent     = "#1e90ff"
 theme.fg_minimize   = "#ffffff"
 
 theme.border_width  = "2"
-theme.border_normal = "#2e3735"
-theme.border_focus  = "#afc81c"
+theme.border_normal = "#000000"
+theme.border_focus  = "#1e90ff"
 theme.border_marked = "#91231c"
+
 
 theme_icons = awful.util.getdir("config") .. "/icons/"
 
@@ -75,9 +75,7 @@ theme.titlebar_maximized_button_focus_inactive  = theme_icons .. "titlebar/maxim
 theme.titlebar_maximized_button_normal_inactive = theme_icons .. "titlebar/maximized_normal_inactive.png"
 
 -- You can use your own command to set your wallpaper
-theme.wallpaper_cmd = { "feh --bg-fill /home/vortex/.Wallpapper/Arch.jpg" }
-
---theme.wallpaper_cmd = { "hsetroot ~/.Wallpapper/Arch.jpg" }
+theme.wallpaper_cmd = { "feh --bg-fill /home/imtxc/.Wallpapper" }
 
 -- You can use your own layout theme_icons like this:
 theme.layout_tile       = theme_icons .. "layouts/tile.png"
@@ -94,5 +92,8 @@ theme.layout_magnifier  = theme_icons .. "layouts/magnifier.png"
 theme.layout_floating   = theme_icons .. "layouts/floating.png"
 
 theme.awesome_icon = theme_icons .. "awesome.png"
+theme.wiget_mail = theme_icons .. "gmail.png"
+theme.wiget_nomail = theme_icons .. "nomail.png"
+theme.wiget_null = theme_icons .. "gmail.png"
 
 return theme

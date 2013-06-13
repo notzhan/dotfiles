@@ -1,13 +1,8 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vundle
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 " git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
 filetype off
-
-
-
 
 set runtimepath+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -18,13 +13,13 @@ Bundle 'Align'
 Bundle 'autoload_cscope.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'echofunc.vim'
+Bundle 'Tagbar'
 Bundle 'grep.vim'
 Bundle 'snipMate'
 Bundle 'SuperTab-continued.'
 Bundle 'taglist.vim'
 Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
-"Bundle 'CSApprox'
 Bundle 'DoxygenToolkit.vim'
 Bundle 'Auto-Pairs'
 Bundle 'TeTrIs.vim'
@@ -38,15 +33,17 @@ Bundle 'ragtag.vim'
 Bundle 'fugitive.vim'
 Bundle 'git://github.com/Lokaltog/vim-powerline.git'
 Bundle 'https://github.com/tangledhelix/vim-octopress.git'
-"Bundle 'Indent-Guides'
+Bundle 'https://github.com/Lokaltog/vim-easymotion.git'
+Bundle 'Indent-Guides'
 "Bundle 'vimtips.zip'
 Bundle 'https://github.com/tpope/vim-git.git'
 Bundle 'TxtBrowser'
-Bundle 'DrawIt'
-
-" FuzzyFinder
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+Bundle 'Markdown'
+Bundle 'bbcode'
+""Bundle 'TagHighlight'
+
 " FuF customisations "{{{
 let g:fuf_modesDisable = []
 nnoremap <leader>h :FufHelp<CR>
@@ -113,11 +110,5 @@ let g:rbpt_colorpairs = [
 "call :RainbowParenthesesToggle()
 nmap <leader>r :RainbowParenthesesToggle<cr>
 au VimEnter * RainbowParenthesesToggle
-"au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-
-"=========================================
-" syntax
-Bundle 'Markdown'
-Bundle 'bbcode'

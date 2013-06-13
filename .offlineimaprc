@@ -1,9 +1,14 @@
-[general]
-# NOTE: cronjob calls the quiet UI with -u
-#ui = ttyui
-accounts = GMail
+# Offlineimap config file
 
-[Account GMail]
+[general]
+ui = Quiet
+accounts = Gmail
+maxsyncaccounts = 1
+socktimeout = 60
+
+[Account Gmail]
+quick = 5
+autorefresh = 1
 localrepository = Gmail-Local
 remoterepository = Gmail-Remote
 
@@ -12,14 +17,12 @@ type = Maildir
 localfolders = ~/Documents/Mails/Gmail
 
 [Repository Gmail-Remote]
-type = Gmail 
+type = Gmail
+#maxconnections = 2
+keepalive = 60
+holdconnectionopen = yes
 remoteuser = txc.yang@gmail.com
-remotepass = pass
-realdelete = no
-
-# "[Gmail]/Some Folder" --> some_folder
-nametrans = lambda folder: re.sub('^inbox$', 'INBOX',
-                           re.sub(' +', '_',
-                           re.sub(r'.*/(.*)$', r'\1', folder).lower()))
-
-# vim: ft=cfg tw=0
+remotepassfile = ~/.mutt/passwd
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+nametrans = lambda foldername: re.sub('^\[Gmail\]/', '', foldername)
+folderfilter = lambda foldername: foldername in ['INBOX', '[Gmail]/Drafts', '[Gmail]/Spam','[Gmail]/Trash']
